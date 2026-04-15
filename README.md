@@ -2,20 +2,20 @@
 
 End-to-end pipeline that scrapes a restaurant menu, extracts ingredients, prices them via USDA data, finds local distributors, and sends RFP emails.
 
-**Restaurant:** [Ruby's Cafe — Soho](https://www.rubyscafe.com/soho-menu/#all-day)
+**Restaurant:** [Ruby's Cafe](https://www.rubyscafe.com/soho-menu/#all-day)
 
 ---
 
 ## Stack
 
-- **Language** — Python
-- **Framework** — FastAPI
-- **Database** — SQLite (WAL mode)
-- **Scraping** — httpx + BeautifulSoup
-- **Ingredient extraction** — Comma-split descriptions + alias normalization
-- **Pricing** — USDA FoodData Central API
-- **Distributors** — Static list of NYC distributors
-- **Email** — Gmail SMTP
+- **Language**: Python
+- **Framework**: FastAPI
+- **Database**: SQLite (WAL mode)
+- **Scraping**: httpx + BeautifulSoup
+- **Ingredient extraction**: Comma-split descriptions + alias normalization
+- **Pricing**: USDA FoodData Central API
+- **Distributors**: Static list of NYC distributors
+- **Email**: Gmail SMTP
 
 ---
 
