@@ -8,14 +8,14 @@ End-to-end pipeline that scrapes a restaurant menu, extracts ingredients, prices
 
 ## Stack
 
-Language: Python
-Framework: FastAPI
-Database: SQLite (WAL mode)
-Scraping: httpx + BeautifulSoup
-Ingredient extraction: Comma-split descriptions + alias normalization
-Pricing: USDA FoodData Central API
-Distributors: Static list of NYC distributors
-Email: Gmail SMTP
+- **Language** — Python
+- **Framework** — FastAPI
+- **Database** — SQLite (WAL mode)
+- **Scraping** — httpx + BeautifulSoup
+- **Ingredient extraction** — Comma-split descriptions + alias normalization
+- **Pricing** — USDA FoodData Central API
+- **Distributors** — Static list of NYC distributors
+- **Email** — Gmail SMTP
 
 ---
 
